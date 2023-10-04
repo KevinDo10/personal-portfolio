@@ -7,13 +7,6 @@
     <meta property="og:title" content="My Personal Portfolio"/>
     <meta property="og:url" content="www.kevinPortfolio.no"/>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-        #contact-paraagraph {
-            background-color: darkcyan;
-            color: beige;
-            padding: 16px;
-            border-radius: 8px}
-    </style>
 </head>
 
 <body>
@@ -21,7 +14,7 @@
 <header>
     <h1>Kevin's Portfolio</h1>
     <nav>
-        <ul>
+        <ul id="nav-ul">
             <li><a href="#about"><b>About Me</b></a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -44,10 +37,10 @@
             bibendum at. Nunc eu consectetur sapien. Etiam sit amet nibh bibendum, sodales purus eget, fringilla lectus.
             Aenean posuere magna nec scelerisque ornare.</p>
     </section>
-
+    <hr>
     <section id="projects">
         <h2>Projects</h2>
-        <p>some of my project</p>
+        <p><b>Some of my projects</b></p>
         <ul>
             <li>SquareEyes</li>
             <li>KebabKing</li>
@@ -72,25 +65,30 @@
             amet nisi in lobortis. Fusce vel nunc convallis nisi sollicitudin luctus ut ut mi. Nullam ullamcorper lacus
             odio, nec aliquet elit bibendum at. Nunc eu consectetur sapien.</p>
     </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p id="contact-paraagraph">
+    <hr>
+    <section id="contact" class="center">
+        <h2 class="generic-p">Contact</h2>
+        <p id="contact-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate sit amet
+            nisi in lobortis. Fusce vel nunc convallis nisi sollicitudin luctus ut ut mi. Nullam ullamcorper lacus odio,
+            nec aliquet elit bibendum at. Nunc eu consectetur sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate sit amet
+            nisi in lobortis. Fusce vel nunc convallis nisi sollicitudin luctus ut ut mi. Nullam ullamcorper lacus odio,
+            nec aliquet elit bibendum at. Nunc eu consectetur sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate sit amet
             nisi in lobortis. Fusce vel nunc convallis nisi sollicitudin luctus ut ut mi. Nullam ullamcorper lacus odio,
             nec aliquet elit bibendum at. Nunc eu consectetur sapien.
         </p>
-        <p>Kevin.front-end@outlook.com</p>
-        <p>+47 95959595</p>
+        <p class="generic-p">E-mail: Kevin.front-end@outlook.com</p>
+        <p class="generic-p">Phone:+47 95959595</p>
+        <p class="generic-p">Kongehuset 100, Oslo 1000</p>
         <button>Hire</button> <button>Call</button>
     </section>
-    <section>
-        <img src="assets/discord%2048x48.png" alt="my personal portfolio"> <img src="assets/twitter%2048x48.png" alt="my personal portfolio"> <img src="assets/instagram%2048x48.png" alt="my personal portfolio">
+    <section class="center">
+        <img id="sosial-media" src="assets/discord%2048x48.png" alt="my personal portfolio"> <img src="assets/twitter%2048x48.png" alt="my personal portfolio"> <img src="assets/instagram%2048x48.png" alt="my personal portfolio">
     </section>
 </main>
-<hr>
+
 <footer>
-    <p>&copy; 2023 copyright</p>
+    <p class="generic-p">&copy; 2023 copyright</p>
 </footer>
 
 </body>
